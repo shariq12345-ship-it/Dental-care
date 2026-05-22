@@ -156,7 +156,6 @@ a:hover {
 
 /* ----------------our services----------------- */
 
-
 .services h1 {
     color: blue;
     font-size: 40px;
@@ -170,7 +169,7 @@ a:hover {
     gap: 40px;
     justify-content: center;
     justify-items: center;
-    margin: 50px 0px;
+    padding: 50px 0px;
 }
 
 .card-1 {
@@ -215,7 +214,7 @@ a:hover {
     gap: 30px;
     justify-content: center;
     justify-items: center;
-    margin: 50px 0px;
+    padding: 50px 0px;
 }
 
 .doc img {
@@ -420,7 +419,8 @@ nav .fa-xmark {
         width: 200px;
 
     }
-    .btn-home{
+
+    .btn-home {
         margin-right: 100px;
     }
 
@@ -693,7 +693,7 @@ nav .fa-xmark {
 @media (max-width: 992px) {
     .patient {
         flex-direction: column;
-       
+
     }
 
     .pat-ul {
@@ -905,7 +905,7 @@ nav .fa-xmark {
     .too-1 ul,
     .bru-1 ul,
     .kid-1 ul,
-    .ele-1 ul{
+    .ele-1 ul {
         flex-direction: column;
     }
 
@@ -1011,13 +1011,15 @@ nav .fa-xmark {
     }
 
 }
-@media (min-width: 601px) and (max-width:780px){
-            .male {
+
+@media (min-width: 601px) and (max-width:780px) {
+    .male {
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
-        .male input {
+
+    .male input {
         width: 100% !important;
         margin-left: 0 !important;
     }
